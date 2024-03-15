@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerMovementSC : MonoBehaviour
 {
     public Rigidbody2D rb; //Physics
     private float horizontal; //Horizontal input
@@ -26,34 +26,22 @@ public class PlayerMovement : MonoBehaviour
     {
         if (other.CompareTag("Answer 1"))
         {
-            if (gameManager.GetComponent<GameManager>().answerInsert == 1)
-            {
-                gameManager.GetComponent<GameManager>().solvedProblem = true;
-            }
+                gameManager.GetComponent<GameManagerSet>().solvedProblem = true;
         }
 
         if (other.CompareTag("Answer 2"))
         {
-            if (gameManager.GetComponent<GameManager>().answerInsert == 2)
-            {
-                gameManager.GetComponent<GameManager>().solvedProblem = true;
-            }
+                gameManager.GetComponent<GameManagerSet>().solvedProblem = true;
         }
 
         if (other.CompareTag("Answer 3"))
         {
-            if (gameManager.GetComponent<GameManager>().answerInsert == 3)
-            {
-                gameManager.GetComponent<GameManager>().solvedProblem = true;
-            }
+                gameManager.GetComponent<GameManagerSet>().solvedProblem = true;
         }
 
         if (other.CompareTag("Answer 4"))
         {
-            if (gameManager.GetComponent<GameManager>().answerInsert == 4)
-            {
-                gameManager.GetComponent<GameManager>().solvedProblem = true;
-            }
+                gameManager.GetComponent<GameManagerSet>().solvedProblem = true;
         }
     }
 

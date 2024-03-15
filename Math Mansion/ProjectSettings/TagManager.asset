@@ -9,6 +9,7 @@ TagManager:
   - Answer 3
   - Answer 4
   - Game Manager
+  - Doorway
   layers:
   - Default
   - TransparentFX
