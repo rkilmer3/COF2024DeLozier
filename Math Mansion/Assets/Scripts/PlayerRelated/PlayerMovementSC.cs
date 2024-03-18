@@ -8,6 +8,7 @@ public class PlayerMovementSC : MonoBehaviour
     private float vertical; //Vertical input
     public float speed; //Player speed
     public GameObject gameManager; //To communicate with the main game manager
+    private int doorsLocked = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -26,22 +27,36 @@ public class PlayerMovementSC : MonoBehaviour
     {
         if (other.CompareTag("Answer 1"))
         {
-                gameManager.GetComponent<GameManagerSet>().solvedProblem = true;
+            gameManager.GetComponent<GameManagerSet>().solvedProblem = true;
+            gameManager.GetComponent<GameManagerSet>().Unlock(doorsLocked);
         }
 
         if (other.CompareTag("Answer 2"))
         {
-                gameManager.GetComponent<GameManagerSet>().solvedProblem = true;
+            gameManager.GetComponent<GameManagerSet>().solvedProblem = true;
+            gameManager.GetComponent<GameManagerSet>().Unlock(doorsLocked);
         }
 
         if (other.CompareTag("Answer 3"))
         {
-                gameManager.GetComponent<GameManagerSet>().solvedProblem = true;
+            gameManager.GetComponent<GameManagerSet>().solvedProblem = true;
+            gameManager.GetComponent<GameManagerSet>().Unlock(doorsLocked);
         }
 
         if (other.CompareTag("Answer 4"))
         {
-                gameManager.GetComponent<GameManagerSet>().solvedProblem = true;
+            gameManager.GetComponent<GameManagerSet>().solvedProblem = true;
+            gameManager.GetComponent<GameManagerSet>().Unlock(doorsLocked);
+        }
+
+        if (other.CompareTag("Lock"))
+        {
+            gameManager.GetComponent<GameManagerSet>().Lock(doorsLocked);
+            gameManager.GetComponent<GameManagerSet>().removeTrigger(doorsLocked);
+            gameManager.GetComponent<GameManagerSet>().solvedProblem = false;
+            gameManager.GetComponent<GameManagerSet>().problemSet();
+            gameManager.GetComponent<GameManagerSet>().problemDisplay();
+            doorsLocked += 1;
         }
     }
 

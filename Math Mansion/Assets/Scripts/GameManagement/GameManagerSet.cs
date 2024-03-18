@@ -10,12 +10,12 @@ public class GameManagerSet : MonoBehaviour
     private int x, y; //Operation numbers
     public GameObject camera; //Camera object to be set and unset as a player child
     public GameObject player; //Player object
-    public GameObject[] doorways;
+    public GameObject[] doorways; //Array of the doorways
+    public GameObject[] renewTrigger; //Array of the renew triggers to set a new problem
     private int operationNumber; //Operation to be performed
     private char operationChar; //Char representation of operation
     private int correctAnswer; //Holds correct answer. See build usages for how this variable is used.
     public int answerInsert; //Variable to hold which UI element holds the correct answer.
-    private int currentDoorway = 0; //Sets current doorway on reset
 
     // Start is called before the first frame update
     void Start()
@@ -24,7 +24,6 @@ public class GameManagerSet : MonoBehaviour
         problemDisplay(); //Display the problem
         camera = GameObject.FindGameObjectWithTag("MainCamera");
         player = GameObject.FindGameObjectWithTag("Player");
-        doorways = GameObject.FindGameObjectsWithTag("Doorway");
     }
 
     // Update is called once per frame
@@ -35,11 +34,11 @@ public class GameManagerSet : MonoBehaviour
             clearProblem(); //Clear the problem values
             camera.transform.position = new Vector3(player.transform.position.x, player.transform.position.y, -10);
             camera.transform.SetParent(player.transform);
-            while (currentDoorway < 5)
-            {
-                doorways[currentDoorway].SetActive(false);
-                currentDoorway += 1;
-            }
+        }
+        else
+        {
+            camera.transform.position = new Vector3(camera.transform.position.x, camera.transform.position.y, -10);
+            camera.transform.SetParent(null);
         }
     }
 
@@ -122,5 +121,20 @@ public class GameManagerSet : MonoBehaviour
             answer3.text = Random.Range(0, 21).ToString();
             answer1.text = Random.Range(0, 21).ToString();
         }
+    }
+
+    public void Unlock(int door)
+    {
+        doorways[door].SetActive(false);
+    }
+
+    public void Lock(int door)
+    {
+        doorways[door].SetActive(true);
+    }
+
+    public void removeTrigger(int trigger)
+    {
+        renewTrigger[trigger].SetActive(false);
     }
 }
