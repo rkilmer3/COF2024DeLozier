@@ -112,4 +112,25 @@ public class GameManager : MonoBehaviour
             answer1.text = Random.Range(0, 21).ToString();
         }
     }
+
+    private List<int> uniqueAnswers(int correctAnswer)
+    {
+        List<int> answers = new List<int>();
+        answers.Add(correctAnswer);
+        
+        while (answers.count < 4)
+        {
+            int randomAnswer = Random.Range(0, 21);
+            if (!answers.Constains(randomAnswer))
+            {
+                answers.Add(randomAnswer);
+            }
+        }
+
+        return answers;
+    
+    }
+
+
+
 }
