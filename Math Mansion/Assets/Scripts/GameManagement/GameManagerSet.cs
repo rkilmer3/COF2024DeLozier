@@ -6,7 +6,7 @@ using TMPro;
 public class GameManagerSet : MonoBehaviour
 {
     public TMP_Text mathProblem; //UI Elements
-    public TMP_Text[] answer1, answer2, answer3, answer4; // Array of UI boxes
+    public TMP_Text answer1, answer2, answer3, answer4; // Array of UI boxes
     public bool solvedProblem = false; //Decides whether or not the problem is solved
     private int x, y; //Operation numbers
     public GameObject camera; //Camera object to be set and unset as a player child
@@ -22,7 +22,7 @@ public class GameManagerSet : MonoBehaviour
     void Start()
     {
         problemSet(); //Set the problem
-        problemDisplay(0); //Display the problem
+        problemDisplay(); //Display the problem
         camera = GameObject.FindGameObjectWithTag("MainCamera");
         player = GameObject.FindGameObjectWithTag("Player");
     }
@@ -32,6 +32,7 @@ public class GameManagerSet : MonoBehaviour
     {
         if (solvedProblem)
         {
+            clearProblem();
             camera.transform.position = new Vector3(player.transform.position.x, player.transform.position.y, -10);
             camera.transform.SetParent(player.transform);
         }
@@ -62,16 +63,16 @@ public class GameManagerSet : MonoBehaviour
         }    
     }
 
-    public void clearProblem(int i)
+    public void clearProblem()
     {
         mathProblem.text = "Move on!";
-            answer1[i].text = "";
-            answer2[i].text = "";
-            answer3[i].text = "";
-            answer4[i].text = "";
+            answer1.text = "";
+            answer2.text = "";
+            answer3.text = "";
+            answer4.text = "";
     }
 
-    public void problemDisplay(int i)
+    public void problemDisplay()
     {
         if (operationChar == '+')
         {
@@ -95,35 +96,35 @@ public class GameManagerSet : MonoBehaviour
         answerInsert = Random.Range(1, 4);
         if (answerInsert == 1)
         {
-                answer1[i].text = correctAnswer.ToString();
-                answer2[i].text = Random.Range(0, 21).ToString();
-                answer3[i].text = Random.Range(0, 21).ToString();
-                answer4[i].text = Random.Range(0, 21).ToString();
+                answer1.text = correctAnswer.ToString();
+                answer2.text = Random.Range(0, 21).ToString();
+                answer3.text = Random.Range(0, 21).ToString();
+                answer4.text = Random.Range(0, 21).ToString();
         }
         else if (answerInsert == 2)
         {
 
-                answer2[i].text = correctAnswer.ToString();
-                answer1[i].text = Random.Range(0, 21).ToString();
-                answer3[i].text = Random.Range(0, 21).ToString();
-                answer4[i].text = Random.Range(0, 21).ToString(); 
+                answer2.text = correctAnswer.ToString();
+                answer1.text = Random.Range(0, 21).ToString();
+                answer3.text = Random.Range(0, 21).ToString();
+                answer4.text = Random.Range(0, 21).ToString(); 
 
         }
         else if (answerInsert == 3)
         {
 
-                answer3[i].text = correctAnswer.ToString();
-                answer2[i].text = Random.Range(0, 21).ToString();
-                answer1[i].text = Random.Range(0, 21).ToString();
-                answer4[i].text = Random.Range(0, 21).ToString();
+                answer3.text = correctAnswer.ToString();
+                answer2.text = Random.Range(0, 21).ToString();
+                answer1.text = Random.Range(0, 21).ToString();
+                answer4.text = Random.Range(0, 21).ToString();
 
         }
         else if (answerInsert == 4)
         {
-                answer4[i].text = correctAnswer.ToString();
-                answer2[i].text = Random.Range(0, 21).ToString();
-                answer3[i].text = Random.Range(0, 21).ToString();
-                answer1[i].text = Random.Range(0, 21).ToString();
+                answer4.text = correctAnswer.ToString();
+                answer2.text = Random.Range(0, 21).ToString();
+                answer3.text = Random.Range(0, 21).ToString();
+                answer1.text = Random.Range(0, 21).ToString();
         }
     }
 
