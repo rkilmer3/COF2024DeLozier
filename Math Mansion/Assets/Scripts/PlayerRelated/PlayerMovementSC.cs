@@ -28,24 +28,28 @@ public class PlayerMovementSC : MonoBehaviour
         if (other.CompareTag("Answer 1"))
         {
             gameManager.GetComponent<GameManagerSet>().solvedProblem = true;
+            gameManager.GetComponent<GameManagerSet>().clearProblem(doorsLocked);
             gameManager.GetComponent<GameManagerSet>().Unlock(doorsLocked);
         }
 
         if (other.CompareTag("Answer 2"))
         {
             gameManager.GetComponent<GameManagerSet>().solvedProblem = true;
+            gameManager.GetComponent<GameManagerSet>().clearProblem(doorsLocked);
             gameManager.GetComponent<GameManagerSet>().Unlock(doorsLocked);
         }
 
         if (other.CompareTag("Answer 3"))
         {
             gameManager.GetComponent<GameManagerSet>().solvedProblem = true;
+            gameManager.GetComponent<GameManagerSet>().clearProblem(doorsLocked);
             gameManager.GetComponent<GameManagerSet>().Unlock(doorsLocked);
         }
 
         if (other.CompareTag("Answer 4"))
         {
             gameManager.GetComponent<GameManagerSet>().solvedProblem = true;
+            gameManager.GetComponent<GameManagerSet>().clearProblem(doorsLocked);
             gameManager.GetComponent<GameManagerSet>().Unlock(doorsLocked);
         }
 
@@ -55,8 +59,8 @@ public class PlayerMovementSC : MonoBehaviour
             gameManager.GetComponent<GameManagerSet>().removeTrigger(doorsLocked);
             gameManager.GetComponent<GameManagerSet>().solvedProblem = false;
             gameManager.GetComponent<GameManagerSet>().problemSet();
-            gameManager.GetComponent<GameManagerSet>().problemDisplay();
             doorsLocked += 1;
+            gameManager.GetComponent<GameManagerSet>().problemDisplay(doorsLocked);
         }
     }
 
