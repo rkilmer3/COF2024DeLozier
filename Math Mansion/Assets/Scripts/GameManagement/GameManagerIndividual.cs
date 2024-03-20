@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class GameManager : MonoBehaviour
+public class GameManagerIndividual : MonoBehaviour
 {
     public TMP_Text mathProblem, answer1, answer2, answer3, answer4; //UI Elements
     public bool solvedProblem = false; //Decides whether or not the problem is solved
@@ -41,7 +41,6 @@ public class GameManager : MonoBehaviour
         x = Random.Range(0, 11);
         y = Random.Range(0, 11);
         operationNumber = Random.Range(1, 3);
-        Debug.Log(operationNumber);
         if(operationNumber == 1)
         {
             operationChar = '+';
