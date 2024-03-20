@@ -1,0 +1,1161 @@
+fileFormatVersion: 2
+guid: a87e6f3282974400da46b4407024cd06
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MathMSprites_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 707
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7728c4fe253d43fbb78400d5af860fb
+      internalID: 989227093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathMSprites_1
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 707
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33670dbbb613d4c199aae6031af0ca6c
+      internalID: 845658096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathMSprites_2
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 707
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec26f4cf92514172ab2b97cd8a68953
+      internalID: -1457356374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathMSprites_3
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 707
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b68d86420613437f834744112f80d1b
+      internalID: -240172026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathMSprites_4
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 707
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea836f5748d1849e2be71467ebc95e2d
+      internalID: -716743674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathMSprites_5
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 707
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e6df47458084701ad3bb0dd77cee3a
+      internalID: -728740983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathMSprites_6
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 707
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5911b9af766459cba997041a108174
+      internalID: 84595432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathMSprites_7
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 707
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f789bb12c59e4281bcded12521f66ea
+      internalID: -1526358084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathMSprites_8
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 540
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4d8c467de9b4008a912a19e9a9c517
+      internalID: 2142169437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathMSprites_9
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 540
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f53b04af3b4b24e6d964a4cacad88c58
+      internalID: -169439499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathMSprites_10
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 540
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 795ad7b58f3da4de9aa2090bad3832a1
+      internalID: 1359889884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathMSprites_11
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 540
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a16807cd52d204e39b2e0294f2ec0dc7
+      internalID: -1622986587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathMSprites_12
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 540
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8a8a4797bce4460b97a77ae5cb9eec
+      internalID: -1313140936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathMSprites_13
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 540
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 555b0624406564d73909ce8b48e3f192
+      internalID: 2113326686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathMSprites_14
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 540
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f361a4d2903462885225245deff03e
+      internalID: 108466655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathMSprites_15
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 452
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4396fc108814f97bdb91eb9d91d82a
+      internalID: 1932558192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathMSprites_16
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 452
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c57007c74505c4014bcd0c0b8f8eb20b
+      internalID: -1568194108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathMSprites_17
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 452
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47dcc75fcac2548d0a32a7ded0153c5f
+      internalID: 362088805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathMSprites_18
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 452
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0e7d47cdb114b4f8f9173c3b70d046
+      internalID: 879791733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathMSprites_19
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 452
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2964a6f1be5042c38630d453de1ef29
+      internalID: 1862698379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathMSprites_20
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 452
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ae59469709943ae9013238a0a8458f
+      internalID: -1380182634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathMSprites_21
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 452
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5483964c2d4da4719a23bd62e8c10bcb
+      internalID: 781068680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathMSprites_22
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 452
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c1d06304acce40b39ab2774a3778c4a
+      internalID: 86915952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathMSprites_23
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 452
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c903d5a384f9c47c38ce704cb8754a46
+      internalID: -2145721632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathMSprites_24
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 452
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7fa962ac0f54a0c81850de2482a34c
+      internalID: 1703675209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathMSprites_25
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 452
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c34c3fa8a02f41428bb3cd14d3e8a57
+      internalID: 1617130702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathMSprites_26
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 452
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e35bd4f9589f4674945a514c35b0c2f
+      internalID: -751148277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathMSprites_27
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 452
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa66d82df60764059966fae117542a49
+      internalID: -94026320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathMSprites_28
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 452
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70547a8439e0e48a0809479e43235121
+      internalID: 706309180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathMSprites_29
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 202
+        width: 155
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b101b35312f4f7482631af5a811500
+      internalID: 315771399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathMSprites_30
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 202
+        width: 155
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f6dd785970f4129b37024f11aeb4b6
+      internalID: 40365829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathMSprites_31
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 332
+        width: 90
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac438116d015492c93eced19787f9db
+      internalID: 1406696345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathMSprites_32
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 305
+        width: 80
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db99abacb102d4b10a4174c625163984
+      internalID: 50486304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathMSprites_33
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 305
+        width: 80
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cdda0a3c5d984f24b615a417ab5811e
+      internalID: 265668932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathMSprites_34
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 340
+        width: 70
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3996d07b7e491474196d577d89f49049
+      internalID: 2039001429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathMSprites_35
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 340
+        width: 70
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f40e54492f026495b8e2d525df27bb1a
+      internalID: -172888125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathMSprites_36
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 305
+        width: 80
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b35768f412c4ac9a0ab895c1516751
+      internalID: -1242685333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathMSprites_37
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 305
+        width: 80
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d383383749b04ae2abb29e599a74d46
+      internalID: -1460927103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathMSprites_38
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 332
+        width: 93
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d5867c108a0481cb5d8bcb0d63aef3
+      internalID: 126311485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathMSprites_39
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 420
+        width: 192
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4451c0c19a3084fd1b236fb943a8ff27
+      internalID: -1020146852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathMSprites_40
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 92
+        width: 200
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b00c0175472495db0e3ceb38ec244c
+      internalID: 506677721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathMSprites_41
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 125
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e97f12a7bb90a49389c4e1849950d6aa
+      internalID: -1784208492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathMSprites_42
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 135
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e12667b281034b6ba75488e07c44afd
+      internalID: -1954936954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathMSprites_43
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 145
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aecf42ce607294674ab169d0dd2b4d77
+      internalID: -1423533651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathMSprites_44
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 92
+        width: 200
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 175, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88fe55ffefffc48269e23652f7d1c494
+      internalID: -1593489001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathMSprites_45
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 267
+        width: 199
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c6e38472e6c94be587b1b00f7dc927c
+      internalID: -91829178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathMSprites_46
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 124
+        width: 197
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6782fec6b5ba14875a1d0012220d2ee0
+      internalID: 1053877846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      MathMSprites_0: 989227093
+      MathMSprites_1: 845658096
+      MathMSprites_10: 1359889884
+      MathMSprites_11: -1622986587
+      MathMSprites_12: -1313140936
+      MathMSprites_13: 2113326686
+      MathMSprites_14: 108466655
+      MathMSprites_15: 1932558192
+      MathMSprites_16: -1568194108
+      MathMSprites_17: 362088805
+      MathMSprites_18: 879791733
+      MathMSprites_19: 1862698379
+      MathMSprites_2: -1457356374
+      MathMSprites_20: -1380182634
+      MathMSprites_21: 781068680
+      MathMSprites_22: 86915952
+      MathMSprites_23: -2145721632
+      MathMSprites_24: 1703675209
+      MathMSprites_25: 1617130702
+      MathMSprites_26: -751148277
+      MathMSprites_27: -94026320
+      MathMSprites_28: 706309180
+      MathMSprites_29: 315771399
+      MathMSprites_3: -240172026
+      MathMSprites_30: 40365829
+      MathMSprites_31: 1406696345
+      MathMSprites_32: 50486304
+      MathMSprites_33: 265668932
+      MathMSprites_34: 2039001429
+      MathMSprites_35: -172888125
+      MathMSprites_36: -1242685333
+      MathMSprites_37: -1460927103
+      MathMSprites_38: 126311485
+      MathMSprites_39: -1020146852
+      MathMSprites_4: -716743674
+      MathMSprites_40: 506677721
+      MathMSprites_41: -1784208492
+      MathMSprites_42: -1954936954
+      MathMSprites_43: -1423533651
+      MathMSprites_44: -1593489001
+      MathMSprites_45: -91829178
+      MathMSprites_46: 1053877846
+      MathMSprites_5: -728740983
+      MathMSprites_6: 84595432
+      MathMSprites_7: -1526358084
+      MathMSprites_8: 2142169437
+      MathMSprites_9: -169439499
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
