@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerMovementIC : MonoBehaviour
 {
     public Rigidbody2D rb; //Physics
     private float horizontal; //Horizontal input
