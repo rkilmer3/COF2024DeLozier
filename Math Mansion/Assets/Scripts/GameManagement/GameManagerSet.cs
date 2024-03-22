@@ -2,14 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-using UnityEngine.SceneManagement;
 
-public class GameManager : MonoBehaviour
+public class GameManagerSet : MonoBehaviour
 {
-    public TMP_Text mathProblem, answer1, answer2, answer3, answer4; //UI Elements
+    public TMP_Text mathProblem; //UI Elements
+    public TMP_Text answer1, answer2, answer3, answer4; // Array of UI boxes
     public bool solvedProblem = false; //Decides whether or not the problem is solved
-    public GameObject square; //Doorway object in the scene
     private int x, y; //Operation numbers
+    public GameObject camera; //Camera object to be set and unset as a player child
+    public GameObject player; //Player object
+    public GameObject[] doorways; //Array of the doorways
+    public GameObject[] renewTrigger; //Array of the renew triggers to set a new problem
     private int operationNumber; //Operation to be performed
     private char operationChar; //Char representation of operation
     private int correctAnswer; //Holds correct answer. See build usages for how this variable is used.
@@ -20,6 +23,8 @@ public class GameManager : MonoBehaviour
     {
         problemSet(); //Set the problem
         problemDisplay(); //Display the problem
+        camera = GameObject.FindGameObjectWithTag("MainCamera");
+        player = GameObject.FindGameObjectWithTag("Player");
     }
 
     // Update is called once per frame
@@ -27,8 +32,14 @@ public class GameManager : MonoBehaviour
     {
         if (solvedProblem)
         {
-            clearProblem(); //Clear the problem values
-            square.SetActive(false); //Open the doorway
+            clearProblem();
+            camera.transform.position = new Vector3(player.transform.position.x, player.transform.position.y, -10);
+            camera.transform.SetParent(player.transform);
+        }
+        else
+        {
+            camera.transform.position = new Vector3(camera.transform.position.x, camera.transform.position.y, -10);
+            camera.transform.SetParent(null);
         }
     }
 
@@ -42,7 +53,6 @@ public class GameManager : MonoBehaviour
         x = Random.Range(0, 11);
         y = Random.Range(0, 11);
         operationNumber = Random.Range(1, 3);
-        Debug.Log(operationNumber);
         if(operationNumber == 1)
         {
             operationChar = '+';
@@ -56,10 +66,10 @@ public class GameManager : MonoBehaviour
     public void clearProblem()
     {
         mathProblem.text = "Move on!";
-        answer1.text = "";
-        answer2.text = "";
-        answer3.text = "";
-        answer4.text = "";
+            answer1.text = "";
+            answer2.text = "";
+            answer3.text = "";
+            answer4.text = "";
     }
 
     public void problemDisplay()
@@ -91,7 +101,7 @@ public class GameManager : MonoBehaviour
             AnswerInsertion(correctAnswer, answer3);
             AnswerInsertion(correctAnswer, answer4);
         }
-        else if(answerInsert == 2)
+        else if (answerInsert == 2)
         {
             answer2.text = correctAnswer.ToString();
             AnswerInsertion(correctAnswer, answer1);
@@ -118,7 +128,7 @@ public class GameManager : MonoBehaviour
     private void AnswerInsertion(int correctAnswer, TMP_Text AnswerChoice)
     {
         int numToInsert = Random.Range(0, 21);
-        if(numToInsert != correctAnswer)
+        if (numToInsert != correctAnswer)
         {
             AnswerChoice.text = numToInsert.ToString();
             Debug.Log("Insertion Success");
@@ -127,12 +137,21 @@ public class GameManager : MonoBehaviour
         {
             Debug.Log("Rerolling");
             AnswerInsertion(correctAnswer, AnswerChoice);
-        }    
+        }
     }
 
-    public void directToLevel(int levelNumber)
+    public void Unlock(int door)
     {
-        SceneManager.LoadScene(levelNumber);
+         doorways[door].SetActive(false);
     }
 
+    public void Lock(int door)
+    {
+        doorways[door].SetActive(true);
+    }
+
+     public void removeTrigger(int trigger)
+     {
+         renewTrigger[trigger].SetActive(false);
+     }
 }

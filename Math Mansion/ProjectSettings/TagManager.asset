@@ -9,6 +9,16 @@ TagManager:
   - Answer 3
   - Answer 4
   - Game Manager
+<<<<<<< Updated upstream
+=======
+  - Doorway
+  - Lock
+  - Level 2 Trigger
+  - Level 3 Trigger
+  - Level 4 Trigger
+  - Level 5 Trigger
+  - End Screen Trigger
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX

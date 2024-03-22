@@ -55,6 +55,31 @@ public class PlayerMovement : MonoBehaviour
                 gameManager.GetComponent<GameManager>().solvedProblem = true;
             }
         }
+
+        if (other.CompareTag("Level 2 Trigger"))
+        {
+            gameManager.GetComponent<GameManagerIndividual>().directToLevel(2);
+        }
+
+        if (other.CompareTag("Level 3 Trigger"))
+        {
+            gameManager.GetComponent<GameManagerIndividual>().directToLevel(3);
+        }
+
+        if (other.CompareTag("Level 4 Trigger"))
+        {
+            gameManager.GetComponent<GameManagerIndividual>().directToLevel(4);
+        }
+
+        if (other.CompareTag("Level 5 Trigger"))
+        {
+            gameManager.GetComponent<GameManagerIndividual>().directToLevel(5);
+        }
+
+        if (other.CompareTag("End Screen Trigger"))
+        {
+            gameManager.GetComponent<GameManagerIndividual>().directToLevel(6);
+        }
     }
 
     public void Movement(InputAction.CallbackContext context)
