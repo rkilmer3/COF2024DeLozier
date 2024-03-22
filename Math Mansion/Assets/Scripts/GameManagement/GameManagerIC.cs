@@ -4,7 +4,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 
-public class GameManager : MonoBehaviour
+public class GameManagerIC : MonoBehaviour
 {
     public TMP_Text mathProblem, answer1, answer2, answer3, answer4; //UI Elements
     public bool solvedProblem = false; //Decides whether or not the problem is solved
