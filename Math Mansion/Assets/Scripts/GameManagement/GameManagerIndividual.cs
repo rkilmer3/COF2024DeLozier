@@ -135,4 +135,24 @@ public class GameManagerIndividual : MonoBehaviour
         SceneManager.LoadScene(levelNumber);
     }
 
+    public void tryAgainDisplay(int answerBox)
+    {
+        switch(answerBox)
+        {
+            case 1:
+                answer1.text = "Try again!";
+                break;
+            case 2:
+                answer2.text = "Try again!";
+                break;
+            case 3:
+                answer3.text = "Try again!";
+                break;
+            case 4:
+                answer4.text = "Try again!";
+                break;
+        }
+            
+    }
+
 }

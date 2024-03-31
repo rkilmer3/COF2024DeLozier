@@ -30,6 +30,10 @@ public class PlayerMovementIC : MonoBehaviour
             {
                 gameManager.GetComponent<GameManagerIndividual>().solvedProblem = true;
             }
+            else
+            {
+                gameManager.GetComponent<GameManagerIndividual>().tryAgainDisplay(1);
+            }
         }
 
         if (other.CompareTag("Answer 2"))
@@ -37,6 +41,10 @@ public class PlayerMovementIC : MonoBehaviour
             if (gameManager.GetComponent<GameManagerIndividual>().answerInsert == 2)
             {
                 gameManager.GetComponent<GameManagerIndividual>().solvedProblem = true;
+            }
+            else
+            {
+                gameManager.GetComponent<GameManagerIndividual>().tryAgainDisplay(2);
             }
         }
 
@@ -46,6 +54,10 @@ public class PlayerMovementIC : MonoBehaviour
             {
                 gameManager.GetComponent<GameManagerIndividual>().solvedProblem = true;
             }
+            else
+            {
+                gameManager.GetComponent<GameManagerIndividual>().tryAgainDisplay(3);
+            }
         }
 
         if (other.CompareTag("Answer 4"))
@@ -53,6 +65,10 @@ public class PlayerMovementIC : MonoBehaviour
             if (gameManager.GetComponent<GameManagerIndividual>().answerInsert == 4)
             {
                 gameManager.GetComponent<GameManagerIndividual>().solvedProblem = true;
+            }
+            else
+            {
+                gameManager.GetComponent<GameManagerIndividual>().tryAgainDisplay(4);
             }
         }
 
