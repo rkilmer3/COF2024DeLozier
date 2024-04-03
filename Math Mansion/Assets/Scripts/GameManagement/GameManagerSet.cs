@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 public class GameManagerSet : MonoBehaviour
@@ -154,4 +155,9 @@ public class GameManagerSet : MonoBehaviour
      {
          renewTrigger[trigger].SetActive(false);
      }
+
+    public void directToLevel(int levelNumber)
+    {
+        SceneManager.LoadScene(levelNumber);
+    }
 }

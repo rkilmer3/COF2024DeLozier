@@ -58,6 +58,11 @@ public class PlayerMovementSC : MonoBehaviour
             doorsLocked += 1;
             gameManager.GetComponent<GameManagerSet>().problemDisplay();
         }
+
+        if (other.CompareTag("End Screen Trigger"))
+        {
+            gameManager.GetComponent<GameManagerSet>().directToLevel(6);
+        }
     }
 
     public void Movement(InputAction.CallbackContext context)

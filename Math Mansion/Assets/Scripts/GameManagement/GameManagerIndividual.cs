@@ -9,6 +9,7 @@ public class GameManagerIndividual : MonoBehaviour
     public TMP_Text mathProblem, answer1, answer2, answer3, answer4; //UI Elements
     public bool solvedProblem = false; //Decides whether or not the problem is solved
     public GameObject square; //Doorway object in the scene
+    public GameObject firework;
     private int x, y; //Operation numbers
     private int operationNumber; //Operation to be performed
     private char operationChar; //Char representation of operation
@@ -29,6 +30,7 @@ public class GameManagerIndividual : MonoBehaviour
         {
             clearProblem(); //Clear the problem values
             square.SetActive(false); //Open the doorway
+            firework.SetActive(true); //Set off fireworks
         }
     }
 
@@ -55,7 +57,7 @@ public class GameManagerIndividual : MonoBehaviour
 
     public void clearProblem()
     {
-        mathProblem.text = "Move on!";
+        mathProblem.text = "Correct! Move on!";
         answer1.text = "";
         answer2.text = "";
         answer3.text = "";
@@ -140,16 +142,16 @@ public class GameManagerIndividual : MonoBehaviour
         switch(answerBox)
         {
             case 1:
-                answer1.text = "Try again!";
+                answer1.text = "Incorrect. Try again!";
                 break;
             case 2:
-                answer2.text = "Try again!";
+                answer2.text = "Incorrect. Try again!";
                 break;
             case 3:
-                answer3.text = "Try again!";
+                answer3.text = "Incorrect. Try again!";
                 break;
             case 4:
-                answer4.text = "Try again!";
+                answer4.text = "Incorrect. Try again!";
                 break;
         }
             
